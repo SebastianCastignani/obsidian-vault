@@ -10,6 +10,7 @@ RUN git clone --depth 1 https://github.com/jackyzha0/quartz.git .
 RUN npm ci
 
 COPY content ./content
+COPY quartz.config.ts ./quartz.config.ts
 
 RUN npx quartz build
 
@@ -24,4 +25,4 @@ RUN npm install -g serve
 
 EXPOSE 8080
 
-CMD ["serve", "-s", "public", "-l", "8080"]
+CMD ["serve", "public", "-l", "8080"]
