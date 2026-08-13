@@ -1,0 +1,202 @@
+{
+  "main": {
+    "id": "6cc6bf7d94e7facb",
+    "type": "split",
+    "children": [
+      {
+        "id": "e5e64d411eb6b4cd",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8a8aee94abd1c946",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "Diagrama TP final Redes.canvas",
+                "viewState": {
+                  "x": 75.5,
+                  "y": 60,
+                  "zoom": -0.2909916353815735
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "Diagrama TP final Redes"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "62da829e85c6e9e2",
+    "type": "split",
+    "children": [
+      {
+        "id": "e2f7f5f28a234e38",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "69b72f60e2d2231a",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Explorador de archivos"
+            }
+          },
+          {
+            "id": "bee73d2befca9bf6",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Buscar"
+            }
+          },
+          {
+            "id": "ae5c4233aeab2618",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Marcadores"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "e206f4b159f85574",
+    "type": "split",
+    "children": [
+      {
+        "id": "cf16a9e5e08fd45f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "866bdd8e28ca9fad",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Diagrama TP final Redes.canvas",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Enlaces entrantes de Diagrama TP final Redes"
+            }
+          },
+          {
+            "id": "6982750f445b1474",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Diagrama TP final Redes.canvas",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Enlaces salientes de Diagrama TP final Redes"
+            }
+          },
+          {
+            "id": "da9c9cf480b53fb5",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Etiquetas"
+            }
+          },
+          {
+            "id": "cd060e0149c8b4de",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "Todas las propiedades"
+            }
+          },
+          {
+            "id": "29200f0e480aba61",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Diagrama TP final Redes.canvas",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Esquema de Diagrama TP final Redes"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Abrir selector rápido": false,
+      "graph:Abrir vista gráfica": false,
+      "canvas:Crear nuevo lienzo": false,
+      "daily-notes:Abrir la nota de hoy": false,
+      "templates:Insertar plantilla": false,
+      "command-palette:Abrir paleta de comandos": false,
+      "bases:Crear nueva base": false
+    }
+  },
+  "active": "69b72f60e2d2231a",
+  "lastOpenFiles": [
+    "UNAHUR/Estrategias de persistencia/introduccion.md",
+    "UNAHUR/Sistemas Operativos/Introduccion.md",
+    "UNAHUR/index.md",
+    "UNAHUR/Sistemas Operativos",
+    "UNAHUR/Estrategias de persistencia",
+    "UNAHUR/Materias/Estrategias de persistencia.md",
+    "UNAHUR/Materias",
+    "Diagrama TP final Redes.canvas",
+    "UNAHUR",
+    "index.md"
+  ]
+}

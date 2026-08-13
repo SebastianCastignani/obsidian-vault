@@ -1,0 +1,35 @@
+{
+	"nodes":[
+		{"id":"674d2f5ac844bbf1","x":-201,"y":-480,"width":295,"height":50,"type":"text","text":" TP Final Redes De  Computadoras"},
+		{"id":"27d9f4165c29471b","x":240,"y":460,"width":310,"height":140,"type":"text","text":"Hospital\n-**1 Switch**.\n-host wifi\n-Hosts Ethernet\n-VLAN"},
+		{"id":"966908f1ec496ecd","x":-285,"y":14,"width":250,"height":60,"type":"text","text":"Router-1"},
+		{"id":"3b757a304ec5fa01","x":-534,"y":320,"width":270,"height":106,"type":"text","text":"Comisaria\n-Switch\n-VPN\n-VLAN"},
+		{"id":"193a219ad232bdd9","x":395,"y":65,"width":290,"height":101,"type":"text","text":"Biblioteca\n-Red Wifi\n-2 VLANs"},
+		{"id":"108bf2348d6d9de2","x":24,"y":14,"width":250,"height":60,"type":"text","text":"Router 4"},
+		{"id":"9922fb9b94707410","x":46,"y":205,"width":250,"height":60,"type":"text","text":"Router-3"},
+		{"id":"dfa1866718050c31","x":-285,"y":205,"width":250,"height":60,"type":"text","text":"Router-2"},
+		{"id":"f80613c3054a5a5c","x":-336,"y":-360,"width":360,"height":239,"type":"text","text":"Sede Central\n-VLAN\n-IP ESTATICAS\nServidor\n-DHCP\n-HTTP\n-DNS\n-IP ESTÁTICA\n-switch"}
+	],
+	"edges":[
+		{"id":"d0ed21e5728fb541","fromNode":"f80613c3054a5a5c","fromSide":"bottom","toNode":"966908f1ec496ecd","toSide":"top"},
+		{"id":"64c45b8b5c6eb9e7","fromNode":"3b757a304ec5fa01","fromSide":"top","toNode":"dfa1866718050c31","toSide":"left"},
+		{"id":"976f479354e7da51","fromNode":"27d9f4165c29471b","fromSide":"top","toNode":"9922fb9b94707410","toSide":"bottom"},
+		{"id":"aaddebd8da15daaa","fromNode":"193a219ad232bdd9","fromSide":"left","toNode":"108bf2348d6d9de2","toSide":"right"},
+		{"id":"27e40e036f7ebde7","fromNode":"108bf2348d6d9de2","fromSide":"right","toNode":"193a219ad232bdd9","toSide":"left"},
+		{"id":"f274d73fd06a920c","fromNode":"9922fb9b94707410","fromSide":"bottom","toNode":"27d9f4165c29471b","toSide":"top"},
+		{"id":"755191f154c70526","fromNode":"dfa1866718050c31","fromSide":"left","toNode":"3b757a304ec5fa01","toSide":"top"},
+		{"id":"bcfe0564d9240dda","fromNode":"966908f1ec496ecd","fromSide":"bottom","toNode":"dfa1866718050c31","toSide":"top"},
+		{"id":"642433ef8acdc940","fromNode":"dfa1866718050c31","fromSide":"top","toNode":"966908f1ec496ecd","toSide":"bottom"},
+		{"id":"30e6a9e7c570b41d","fromNode":"966908f1ec496ecd","fromSide":"right","toNode":"108bf2348d6d9de2","toSide":"left"},
+		{"id":"96fbd1e07b2900de","fromNode":"108bf2348d6d9de2","fromSide":"left","toNode":"966908f1ec496ecd","toSide":"right"},
+		{"id":"d6ac69ba2f90107e","fromNode":"9922fb9b94707410","fromSide":"top","toNode":"108bf2348d6d9de2","toSide":"bottom"},
+		{"id":"ffda356525d75229","fromNode":"108bf2348d6d9de2","fromSide":"bottom","toNode":"9922fb9b94707410","toSide":"top"},
+		{"id":"dc1c09b8bbd2b7b3","fromNode":"9922fb9b94707410","fromSide":"left","toNode":"dfa1866718050c31","toSide":"right"},
+		{"id":"2738703678c3dc9c","fromNode":"dfa1866718050c31","fromSide":"right","toNode":"9922fb9b94707410","toSide":"left"},
+		{"id":"8c3b9a282f9d54a2","fromNode":"dfa1866718050c31","fromSide":"top","toNode":"108bf2348d6d9de2","toSide":"bottom"},
+		{"id":"1a4d7e7693f265b6","fromNode":"108bf2348d6d9de2","fromSide":"bottom","toNode":"dfa1866718050c31","toSide":"top"},
+		{"id":"8cb2415f7342afec","fromNode":"108bf2348d6d9de2","fromSide":"bottom","toNode":"dfa1866718050c31","toSide":"top"},
+		{"id":"e42a6721c22fb8f1","fromNode":"9922fb9b94707410","fromSide":"top","toNode":"966908f1ec496ecd","toSide":"bottom"},
+		{"id":"ffeb094f90b6c480","fromNode":"966908f1ec496ecd","fromSide":"bottom","toNode":"9922fb9b94707410","toSide":"top"}
+	]
+}
